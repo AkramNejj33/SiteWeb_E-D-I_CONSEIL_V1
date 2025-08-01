@@ -25,7 +25,7 @@ const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
       id="home"
       className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-20"
       style={{
-        backgroundImage: `url('https://readdy.ai/api/search-image?query=modern%20digital%20technology%20background%20with%20abstract%20network%20connections%20and%20data%20flow%20patterns%20in%20blue%20and%20white%20colors%20professional%20business%20atmosphere&width=1440&height=600&seq=hero-bg-001&orientation=landscape')`,
+        backgroundImage: `url('https://source.unsplash.com/1600x600/?technology')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -57,7 +57,7 @@ const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
           </div>
           <div className="relative">
             <img
-              src="https://readdy.ai/api/search-image?query=professional%20business%20technology%20illustration%20showing%20data%20exchange%20and%20digital%20communication%20networks%20with%20clean%20modern%20design%20elements&width=600&height=400&seq=hero-img-001&orientation=landscape"
+              src="https://source.unsplash.com/1600x600/?technology"
               alt="EDI Solutions"
               className="w-full h-auto rounded-lg shadow-lg"
             />

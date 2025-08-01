@@ -4,8 +4,8 @@
   "description": "Site web professionnel pour services EDI - E-D-I CONSEIL",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "tsc && vite build",
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },

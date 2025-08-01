@@ -47,7 +47,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://readdy.ai/api/search-image?query=professional%20business%20consultant%20working%20with%20digital%20technology%20and%20data%20analytics%20in%20modern%20office%20environment%20with%20clean%20lighting&width=600&height=400&seq=about-img-001&orientation=landscape"
+              src="https://source.unsplash.com/600x400/?business,technology"
               alt="Professional EDI Expert"
               className="w-full h-auto rounded-lg shadow-lg"
             />

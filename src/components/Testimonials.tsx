@@ -52,7 +52,7 @@ const Testimonials: React.FC = () => {
               </blockquote>
               <div className="flex items-center justify-center">
                 <img
-                  src={`https://readdy.ai/api/search-image?query=professional%20business%20person%20headshot%20portrait%20in%20modern%20office%20setting%20clean%20background&width=60&height=60&seq=testimonial-${currentTestimonial + 1}&orientation=squarish`}
+                  src={`/placeholder-avatar.jpg`}
                   alt={testimonials[currentTestimonial].name}
                   className="w-12 h-12 rounded-full mr-4"
                 />

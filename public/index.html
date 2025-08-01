@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EDI Conseil</title>
+    
+    <!-- Meta tags pour le SEO -->
+    <title>E-D-I CONSEIL - Expert en Solutions EDI et Intégration B2B</title>
+    <meta name="description" content="Services professionnels EDI (Electronic Data Interchange) : intégration, migration, support technique. Expert en EDIFACT, X12, AS2, SFTP pour entreprises." />
+    <meta name="keywords" content="EDI, Electronic Data Interchange, EDIFACT, X12, AS2, SFTP, intégration B2B, conseil EDI, migration EDI" />
+    <meta name="author" content="E-D-I CONSEIL" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://edi-conseil.com" />
+    <meta property="og:title" content="E-D-I CONSEIL - Expert en Solutions EDI" />
+    <meta property="og:description" content="Services professionnels EDI : intégration, migration, support technique pour optimiser vos échanges B2B." />
+    <meta property="og:image" content="/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://edi-conseil.com" />
+    <meta property="twitter:title" content="E-D-I CONSEIL - Expert en Solutions EDI" />
+    <meta property="twitter:description" content="Services professionnels EDI : intégration, migration, support technique pour optimiser vos échanges B2B." />
+    <meta property="twitter:image" content="/twitter-image.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Preconnect pour optimiser le chargement des polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "E-D-I CONSEIL",
+      "url": "https://edi-conseil.com",
+      "logo": "https://edi-conseil.com/logo.png",
+      "description": "Services professionnels EDI (Electronic Data Interchange) : intégration, migration, support technique.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-123-4567",
+        "contactType": "customer service",
+        "email": "contact@ediexpert.com"
+      },
+      "sameAs": [
+        "https://linkedin.com/company/edi-conseil",
+        "https://twitter.com/edi_conseil"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FR"
+      },
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services EDI",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Intégration EDI",
+              "description": "Intégration transparente des systèmes EDI avec vos applications métier existantes."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Migration de systèmes EDI",
+              "description": "Migration sécurisée et efficace depuis des systèmes EDI legacy vers des solutions cloud modernes."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Support technique EDI",
+              "description": "Surveillance 24/7, dépannage et maintenance de votre infrastructure EDI."
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Analytics (à remplacer par votre code d'analytics) -->
+    <!-- Google Analytics -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
   </body>
 </html>

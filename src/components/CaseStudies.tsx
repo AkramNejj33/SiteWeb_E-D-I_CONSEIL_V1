@@ -43,7 +43,7 @@ const CaseStudies: React.FC = () => {
           {caseStudies.map((study, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow">
               <img
-                src={`https://readdy.ai/api/search-image?query=modern%20business%20office%20environment%20with%20digital%20technology%20and%20data%20processing%20systems%20professional%20clean%20background&width=400&height=250&seq=case-${index + 1}&orientation=landscape`}
+                src={"https://source.unsplash.com/400x250/?office,technology&sig=${index}"}
                 alt={`${study.industry} Case Study`}
                 className="w-full h-48 object-cover"
               />
